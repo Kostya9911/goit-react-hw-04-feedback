@@ -1,0 +1,31 @@
+.section_button {
+  padding-left: 0px;
+}
+.button {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 5px;
+  border-radius: 7px;
+  height: 35px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.button:hover {
+  opacity: 1;
+}
+.good {
+  composes: button;
+  background-color: greenyellow;
+}
+
+.neutral {
+  composes: button;
+  background-color: lightgoldenrodyellow;
+}
+.bad {
+  composes: button;
+  background-color: lightcoral;
+}
