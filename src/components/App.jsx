@@ -13,9 +13,11 @@ export const App = () => {
   const addFeedback = option => {
     if (option === 'good') {
       setGood(good + 1);
+      return;
     }
     if (option === 'bad') {
       setBad(bad + 1);
+      return;
     }
     setNeutral(neutral + 1);
   };
